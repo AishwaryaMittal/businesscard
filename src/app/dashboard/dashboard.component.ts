@@ -35,7 +35,7 @@ export class DashboardComponent implements OnInit {
         {
           'image': {
             'source': {
-              'imageUri': 'https://lh3.googleusercontent.com/-sQsJlPZIPTc/ThwkpQeADtI/AAAAAAAAAuI/MWUH1I_7X0A/w530-h289-n/patrick-bateman-card.png',
+              'imageUri': 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmkt-image-prd.global.ssl.fastly.net%2F0.1.0%2Fps%2F1795486%2F1160%2F772%2Fm1%2Ffpnw%2Fwm0%2Fscreenshot-1-.jpg%3F1477301830%26s%3D3c4ded788228414f9744207b93ad8d23&imgrefurl=https%3A%2F%2Fcreativemarket.com%2FThemeDevisers%2F984347-Business-Card&docid=am-2A12BeZj5dM&tbnid=1HWbImvdfC1ZpM%3A&vet=10ahUKEwiIwICB5OTeAhUMX60KHXbDBo0QMwiKAigUMBQ..i&w=1160&h=772&safe=active&bih=657&biw=1366&q=business%20cards&ved=0ahUKEwiIwICB5OTeAhUMX60KHXbDBo0QMwiKAigUMBQ&iact=mrc&uact=8',
             },
           },
           'features': [
@@ -62,12 +62,12 @@ export class DashboardComponent implements OnInit {
 
   parseText(cardTexts: any[]): Card {
     var card = new Card();
-    card.firstName = "Jenny";
-    card.lastName = "Terlinden";
-    card.phoneNumber = "262-313-7285";
-    card.email = "jenterlinden@gmail.com";
-    card.additionalText = "DePaul graduate student";
-    card.imageUri = 'https://lh3.googleusercontent.com/-sQsJlPZIPTc/ThwkpQeADtI/AAAAAAAAAuI/MWUH1I_7X0A/w530-h289-n/patrick-bateman-card.png'
+    card.firstName = "Aishwarya";
+    card.lastName = "Mittal";
+    card.phoneNumber = "469-740-9853";
+    card.email = "mittalaish@gmail.com";
+    card.additionalText = "DePaul Computer science graduate student";
+    card.imageUri = 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcmkt-image-prd.global.ssl.fastly.net%2F0.1.0%2Fps%2F1795486%2F1160%2F772%2Fm1%2Ffpnw%2Fwm0%2Fscreenshot-1-.jpg%3F1477301830%26s%3D3c4ded788228414f9744207b93ad8d23&imgrefurl=https%3A%2F%2Fcreativemarket.com%2FThemeDevisers%2F984347-Business-Card&docid=am-2A12BeZj5dM&tbnid=1HWbImvdfC1ZpM%3A&vet=10ahUKEwiIwICB5OTeAhUMX60KHXbDBo0QMwiKAigUMBQ..i&w=1160&h=772&safe=active&bih=657&biw=1366&q=business%20cards&ved=0ahUKEwiIwICB5OTeAhUMX60KHXbDBo0QMwiKAigUMBQ&iact=mrc&uact=8'
     return card;
   }
 
