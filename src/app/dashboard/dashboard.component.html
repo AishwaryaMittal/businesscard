@@ -1,0 +1,31 @@
+<h1>My Dashboard</h1>
+
+<button (click)="textDetection()" class="btn btn-primary" onClick="gtag('event', 'card added');">Detect Text</button>
+
+<div>
+<div *ngIf="savedCards && savedCards.length > 0">
+  <h3>
+    My Business Cards
+  </h3>
+  <div *ngFor="let card of savedCards; let cardNum = index">
+    <div>
+      <span>
+        {{ cardNum + 1 }}. 
+      </span>
+      <span>
+        {{ card.firstName }} {{ card.lastName }},
+      </span>
+      <span>
+        {{ card.phoneNumber }},
+      </span>
+      <span>
+        {{ card.email }},
+      </span>
+      <span>
+        {{ card.additionalText }}
+      </span>
+    </div>
+    <div>
+        <img [src]="card.imageUri" [height]="270" [width]="500">
+    </div>
+</div>
